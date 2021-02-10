@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="26dp"
+    android:paddingRight="16dp"
+    android:paddingTop="60dp"
+    android:orientation="vertical"
+    android:background="@drawable/bobo"
+    tools:context=".detailbangundatarActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="46dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bangun datar      :"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="21dp" />
+
+        <TextView
+            android:id="@+id/tv_detailbangundatar"
+            android:layout_width="267dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:textSize="21dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="46dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mengitung           :"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="21dp" />
+
+        <TextView
+            android:id="@+id/tv_detailMenghitung"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="21dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="46dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rumus                  :"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="21dp" />
+
+        <TextView
+            android:id="@+id/tv_detailrumus"
+            android:layout_width="305dp"
+            android:layout_height="41dp"
+            android:textColor="#fff"
+            android:inputType="text|textMultiLine"
+            android:textSize="21dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="46dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keterangan          :"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="21dp" />
+
+        <TextView
+            android:id="@+id/tv_detailcatatan"
+            android:layout_width="305dp"
+            android:layout_height="46dp"
+            android:textColor="#fff"
+            android:inputType="text|textMultiLine"
+            android:textSize="21dp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonkembali1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Kembali"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/ic_arrow"/>
+
+</LinearLayout>

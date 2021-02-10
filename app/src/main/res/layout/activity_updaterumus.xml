@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="16dp"
+    android:paddingTop="56dp"
+    android:background="@drawable/bg6"
+    tools:context=".updaterumusActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_bangundatar"
+        android:textColor="#fff"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="19dp"
+        android:text="Bangun Datar"/>
+
+    <EditText
+        android:id="@+id/et_updatebangundatar"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginLeft="19dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_updatehitung"
+        android:textColor="#fff"
+        android:textSize="21dp"
+        android:layout_marginLeft="19dp"
+        android:textStyle="bold"
+        android:text="Menghitung"/>
+
+    <EditText
+        android:id="@+id/et_updatehitung"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:layout_marginLeft="19dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_rumus"
+        android:layout_marginLeft="19dp"
+        android:textColor="#fff"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:text="Rumus"/>
+
+
+    <EditText
+        android:id="@+id/et_updaterumus"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="top"
+        android:textColor="#fff"
+        android:layout_marginLeft="19dp"
+        android:textSize="18dp"
+        android:inputType="text|textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_catatan"
+        android:textColor="#fff"
+        android:textSize="21dp"
+        android:layout_marginLeft="19dp"
+        android:textStyle="bold"
+        android:text="Keterangan"/>
+
+    <EditText
+        android:id="@+id/et_updatecatatan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="top"
+        android:layout_marginLeft="19dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:inputType="text|textMultiLine" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/buttonkembalirumus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="Kembali"
+            android:textColor="#fff"
+            style="?android:attr/borderlessButtonStyle"
+            android:drawableLeft="@drawable/ic_arrow" />
+
+        <Button
+            android:id="@+id/buttoupdaterumus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            style="?android:attr/borderlessButtonStyle"
+            android:drawableLeft="@drawable/ic_done"
+            android:text="Simpan"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

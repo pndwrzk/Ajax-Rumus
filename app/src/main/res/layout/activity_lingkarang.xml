@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nn"
+    android:paddingTop="17dp"
+    tools:context=".LingkarangActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lingkaran"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jari - Jari "
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Panjang Jari jari"
+        android:id="@+id/inputjarijari"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:inputType="number"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <Button
+
+                android:id="@+id/btnKelilinglingkaran"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Hitung Keliling"
+                android:background="@drawable/tombol_edge"
+                android:padding="4dp"
+                android:textColor="#ffff"
+                android:layout_margin="15dp"/>
+
+            <Button
+                android:id="@+id/btnluaslingkaran"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Hitung LUAS"
+
+                android:background="@drawable/tombol_edge"
+                android:padding="8dp"
+                android:textColor="#ffff"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnresetlingkaran"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="@drawable/tombol_his"
+            android:textColor="#000000"/>
+
+
+
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/teks_keliling_lingkaran"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keliling :"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/teks_luas_lingkaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Luas      :"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="18dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
